@@ -23,7 +23,7 @@ function pasanganTerbesar(num) {
   var nilaiMax = 0;
   for(var i = 0; i <= arr.length - 1; i++) {
     var sum = arr[i] + arr[i+1];
-    if(sum > nilaiMax) {
+    if(Number(sum) > nilaiMax) {
       nilaiMax = sum;
     }
   }
